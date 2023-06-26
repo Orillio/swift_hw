@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DC504E4A-610E-473B-B246-780C72F2C5A8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84BCC59B-1880-46FE-9562-BBDC2209C2BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW3/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "84BCC59B-1880-46FE-9562-BBDC2209C2BB - 2d69fa6888855887"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW3.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HW3.ViewController"
+                  moduleName = "HW3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykozyrenko/Desktop/swift%20course/HW3/HW3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "84BCC59B-1880-46FE-9562-BBDC2209C2BB - 99ee05dcda654b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW3.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HW3.ViewController"
+                  moduleName = "HW3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykozyrenko/Desktop/swift%20course/HW3/HW3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "84BCC59B-1880-46FE-9562-BBDC2209C2BB - b9bf76b74c6ded08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW3.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HW3.ViewController&gt;"
+                  moduleName = "HW3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykozyrenko/Desktop/swift%20course/HW3/HW3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "84BCC59B-1880-46FE-9562-BBDC2209C2BB - fe34fd154ed324bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW3.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HW3.ViewController&gt;"
+                  moduleName = "HW3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykozyrenko/Desktop/swift%20course/HW3/HW3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "84BCC59B-1880-46FE-9562-BBDC2209C2BB - 7c988907c77c3e8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW3.ViewController.__deallocating_deinit"
+                  moduleName = "HW3"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ykozyrenko/Desktop/swift%20course/HW3/HW3/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
