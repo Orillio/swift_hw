@@ -29,6 +29,6 @@ extension APITarget: TargetType {
         .requestPlain
     }
     var headers: [String : String]? {
-        ["Content-Type" : "application/json"]
+        ["Content-Type" : "application/json", "Cache-Control": "no-cache"]
     }
 }

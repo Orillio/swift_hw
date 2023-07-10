@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		874A4505EC8CF30F1269E58B /* Pods_HW4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEEC6279BF80068D82205C6 /* Pods_HW4.framework */; };
 		EC4CB1E72A59DA6B003F993B /* APITarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4CB1E62A59DA6B003F993B /* APITarget.swift */; };
+		EC6F5F692A5C6CBE00881468 /* NetworkAvailablility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6F5F682A5C6CBE00881468 /* NetworkAvailablility.swift */; };
+		EC6F5F6C2A5C6E4E00881468 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC6F5F6A2A5C6E4E00881468 /* Model.xcdatamodeld */; };
+		EC6F5F6E2A5C70C000881468 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6F5F6D2A5C70C000881468 /* Container.swift */; };
 		EC7A95ED2A50512A0003B6C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A95EC2A50512A0003B6C8 /* AppDelegate.swift */; };
 		EC7A95EF2A50512A0003B6C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A95EE2A50512A0003B6C8 /* SceneDelegate.swift */; };
 		EC7A95F12A50512A0003B6C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A95F02A50512A0003B6C8 /* ViewController.swift */; };
@@ -45,6 +48,9 @@
 		6DEEC6279BF80068D82205C6 /* Pods_HW4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DC59264FB1FA50B43D1F2E /* Pods-HW4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW4.debug.xcconfig"; path = "Target Support Files/Pods-HW4/Pods-HW4.debug.xcconfig"; sourceTree = "<group>"; };
 		EC4CB1E62A59DA6B003F993B /* APITarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITarget.swift; sourceTree = "<group>"; };
+		EC6F5F682A5C6CBE00881468 /* NetworkAvailablility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAvailablility.swift; sourceTree = "<group>"; };
+		EC6F5F6B2A5C6E4E00881468 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EC6F5F6D2A5C70C000881468 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		EC7A95E92A50512A0003B6C8 /* HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7A95EC2A50512A0003B6C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7A95EE2A50512A0003B6C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +156,9 @@
 				EC7A95F72A50512C0003B6C8 /* LaunchScreen.storyboard */,
 				EC7A95FA2A50512C0003B6C8 /* Info.plist */,
 				EC7C85472A506C270058D868 /* RMTableViewCell.swift */,
+				EC6F5F682A5C6CBE00881468 /* NetworkAvailablility.swift */,
+				EC6F5F6A2A5C6E4E00881468 /* Model.xcdatamodeld */,
+				EC6F5F6D2A5C70C000881468 /* Container.swift */,
 			);
 			path = HW4;
 			sourceTree = "<group>";
@@ -351,7 +360,10 @@
 				EC7A95F12A50512A0003B6C8 /* ViewController.swift in Sources */,
 				EC7A95ED2A50512A0003B6C8 /* AppDelegate.swift in Sources */,
 				EC4CB1E72A59DA6B003F993B /* APITarget.swift in Sources */,
+				EC6F5F6E2A5C70C000881468 /* Container.swift in Sources */,
+				EC6F5F6C2A5C6E4E00881468 /* Model.xcdatamodeld in Sources */,
 				ECDE96B72A59E03D00C6E310 /* CharacterModel.swift in Sources */,
+				EC6F5F692A5C6CBE00881468 /* NetworkAvailablility.swift in Sources */,
 				EC7A95EF2A50512A0003B6C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +708,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC6F5F6A2A5C6E4E00881468 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC6F5F6B2A5C6E4E00881468 /* Model.xcdatamodel */,
+			);
+			currentVersion = EC6F5F6B2A5C6E4E00881468 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC7A95E12A50512A0003B6C8 /* Project object */;
 }
