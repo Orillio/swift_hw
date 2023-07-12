@@ -2,7 +2,7 @@
 //  Character+CoreDataClass.swift
 //  
 //
-//  Created by Ян Козыренко on 10.07.2023.
+//  Created by Ян Козыренко on 12.07.2023.
 //
 //
 
